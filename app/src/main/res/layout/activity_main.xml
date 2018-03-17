@@ -8,8 +8,9 @@
     tools:context="com.example.android.thursdayzstyle.MainActivity">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
         android:src="@drawable/androidparty" />
 
     <TextView
@@ -17,16 +18,21 @@
         android:layout_height="wrap_content"
         android:textSize="26sp"
         android:fontFamily="sans-serif-light"
-        android:textColor
-        android:text="Joyeux Anniversaire, David !" />
+        android:textColor="@android:color/white"
+        android:text="Joyeux Anniversaire, David !"
+        android:padding="20dp"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="26sp"
         android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"
         android:text="je t'aime, TK"
-        />
+        android:layout_margin="20dp"/>
 </RelativeLayout>
+
+    <!--android:textColor=@android:color/white-->
+    <!--android:scaleType="centerCrop" (make sure quotes match)-->
